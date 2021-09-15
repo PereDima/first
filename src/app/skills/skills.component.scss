@@ -1,0 +1,46 @@
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2em auto;
+  border-radius: 1em;
+  gap: 4em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+
+  .soft-skils-item{
+    font-weight: 400;
+    margin-left: 1.5rem;
+    color: orangered;
+  }
+  .soft-skils-item span{
+    color: black;
+    filter: contrast();
+  }
+  .tech-skils-item{
+    font-weight: 400;
+    margin-left: 1.5rem;
+    color: orangered;
+  }
+  .tech-skils-item span{
+    color: black;
+  }
+  
+  .bg-logo {
+    position: absolute;
+    width: 900px;
+    opacity: .15;
+    left: -10%;
+    top: 20%;
+  }
+  
+  .bg-logo1 {
+    position: absolute;
+    width: 900px;
+    opacity: .15;
+    left: 55%;
+    top: 10%;
+  }
+}
